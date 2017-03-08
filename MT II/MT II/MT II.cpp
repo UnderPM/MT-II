@@ -4,8 +4,8 @@
 int main() {
 	using namespace std;
 	
-	float pi = 4 * atan(1.0);
-	float third = 1.0 / 3.0;
+	const float pi = 4 * atan(1.0);
+	static constexpr float third = 1.0 / 3.0;
 	
 	float displacement = 3.0e-3f;
 	int cylinders = 6;
